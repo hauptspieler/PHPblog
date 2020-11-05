@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custom Styling -->
+    <link rel="stylesheet" href="../../style.css">
+
+    <!-- Admin Styling -->
+    <link rel="stylesheet" href="admin.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <title>Admin - add posts</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="logo-text">Inteli Robots</h1>
+        </div>
+
+        <div class="date">
+            <h2>28 de outubro de 2020 - 18:00</h2>
+        </div> 
+
+    </header>
+
+
+    <!-- Admin page wrapper -->
+    <div class="admin-wrapper">
+
+        <!-- left sidebar -->
+
+        <div class="left-sidebar">
+            <ul>
+                <li><a href="index.html">Manage Posts</a></li>
+            </ul>
+
+        </div>
+
+        <!-- Admin content -->
+        <div class="admin-content">
+           
+            <div class="button-group">
+                <a href="create.html" class= "btn btn-big">Add Post</a>
+                <a href="index.html" class= "btn btn-big">Manage Posts</a>
+            </div>
+
+            <div class="content">
+
+                <h2 class="page-title">Manage Posts</h2>
+
+                <form action="create.html" method="post">
+                    <div>
+                        <label>Title</label>
+                        <input type="text" name="title" class="text-input">
+                    </div>
+
+                    <div>
+                        <label>Body</label>
+                        <textarea name="body" id="body"></textarea>
+                    </div>
+                </form>
+                 
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+<script src="https://cdn.ckeditor.com/ckeditor5/23.1.0/classic/ckeditor.js"></script>
+<script src="../../js/scripts.js"></script>
+
+
+
+
+
+
+
+
+
+<!-- https://www.youtube.com/watch?v=kGzwvOFUewY&list=PL3pyLl-dgiqBSBsC5O5AQHN1UsUk-60nc&index=15&ab_channel=AwaMelvine
+
+    34:14. problema para incluir o script de texto no formulario
+
+
+-->

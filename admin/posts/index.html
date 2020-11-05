@@ -1,47 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
     <!-- Custom Styling -->
     <link rel="stylesheet" href="../../style.css">
 
     <!-- Admin Styling -->
-    <link rel="stylesheet" href="../../admin.css">
-  
+    <link rel="stylesheet" href="admin.css">
+
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-   
-    <title>Admin</title>
+
+    <title>Admin - manage posts</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
             <h1 class="logo-text">Inteli Robots</h1>
         </div>
-      
-        <div class="date"><h2>28 de outubro de 2020 - 18:00</h2></div>
-       
+
+        <div class="date">
+            <h2>28 de outubro de 2020 - 18:00</h2>
+        </div> 
+
     </header>
-   
+
+
     <!-- Admin page wrapper -->
     <div class="admin-wrapper">
 
         <!-- left sidebar -->
 
         <div class="left-sidebar">
+            <ul>
+                <li><a href="index.html">Manage Posts</a></li>
+            </ul>
 
         </div>
-    
+
         <!-- Admin content -->
         <div class="admin-content">
+           
+            <div class="button-group">
+                <a href="create.html" class= "btn btn-big">Add Post</a>
+                <a href="index.html" class= "btn btn-big">Manage Posts</a>
+            </div>
+
+            <div class="content">
+
+                <h2 class="page-title">Manage Posts</h2>
+
+                <table>
+                   
+                    <thead>
+                        <th>Codigo</th>
+                        <th>Titulo</th>
+                        <th>Autor</th>
+                        <th colspan="3">Ação</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>This is the first post</td>
+                            <td>Raphael</td>
+                            <td><a href="#" class="edit">edit</a></td>
+                            <td><a href="#" class="delete">delete</a></td>
+                            <td><a href="#" class="publish">publish</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>This is the second post</td>
+                            <td>Baisch</td>
+                            <td><a href="#" class="edit">edit</a></td>
+                            <td><a href="#" class="delete">delete</a></td>
+                            <td><a href="#" class="publish">publish</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
 
         </div>
-  
+
     </div>
-    
+
+
 </body>
+
 </html>
 
-<!-- problema para mostrar as bordas, parou neste video https://www.youtube.com/watch?v=kGzwvOFUewY&list=PL3pyLl-dgiqBSBsC5O5AQHN1UsUk-60nc&index=15&ab_channel=AwaMelvine aos 15:30 -->
+<!-- https://www.youtu be.com/watch?v=kGzwvOFUewY&list=PL3pyLl-dgiqBSBsC5O5AQHN1UsUk-60nc&index=15&ab_channel=AwaMelvine
 
+                24:50
+-->
