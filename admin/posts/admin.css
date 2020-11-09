@@ -71,3 +71,8 @@ th, td{
 .publish:hover{
     text-decoration: underline;
 }
+
+
+form div{
+    margin-bottom:  18px;
+}
